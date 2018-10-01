@@ -1,3 +1,14 @@
+### Usage
+
+You can create a new CAA record for a given Hosted Zone by passing the hosted zone name as an argument to the [`create-caa-record.sh`](https://github.com/dylburger/aws-security/blob/master/caa-records/create-caa-record.sh) script:
+
+```
+./create-caa-record.sh domain.name.
+```
+Note that Route 53 typically creates hosted zones with a trailing `.` after the domain name.
+
+This script creates a CloudFormation stack but requires that you create the resources tied to the initial change set, which you can do using the AWS CLI or in the CloudFormation UI.
+
 ### What is a CAA record?
 
 From [the RFC](https://tools.ietf.org/search/rfc6844):
