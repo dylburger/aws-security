@@ -38,3 +38,15 @@ ACM cannot issue a certificate to your domain or subdomain:
 ```
 
 The `TTL` field was set to a low value specifically because setting a high TTL for a CAA record can cause problems when you published an incorrect record.
+
+### The `iodef` property
+
+From [RFC 6844](https://tools.ietf.org/search/rfc6844#section-5.4):
+
+>  The iodef property specifies a means of reporting certificate issue requests or cases of certificate issue for the corresponding domain that violate the security policy of the issuer or the domain name holder.
+
+You can, optionally, add the `iodef` property to your CAA record by appending a line like so:
+
+```
+0 iodef "mailto:security@example.com"
+```
