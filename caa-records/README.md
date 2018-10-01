@@ -26,7 +26,8 @@ AWS supports configuring CAA records in [Route53 Cloudformation templates](https
 [Amazon states](https://docs.aws.amazon.com/acm/latest/userguide/setup-caa.html):
 
 ```
-if you do not have a CAA record that specifies one of the following four Amazon CAs, ACM cannot issue a certificate to your domain or subdomain:
+if you do not have a CAA record that specifies one of the following four Amazon CAs, 
+ACM cannot issue a certificate to your domain or subdomain:
 
 * amazon.com
 * amazontrust.com
