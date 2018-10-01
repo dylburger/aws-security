@@ -16,6 +16,8 @@ This was [adopted by the CA/Browser Forum](https://cabforum.org/2017/03/08/ballo
 
 ### AWS Support
 
+AWS started [supporting CAA records](https://aws.amazon.com/about-aws/whats-new/2017/08/amazon-route-53-now-supports-caa-records/) on August 21, 2017.
+
 AWS supports configuring CAA records in [Route53 Cloudformation templates](https://docs.aws.amazon.com/Route53/latest/APIReference/API_ResourceRecordSet.html#Route53-Type-ResourceRecordSet-Type).
 
 * [AWS Guide - Configure a CAA record](https://docs.aws.amazon.com/acm/latest/userguide/setup-caa.html)
