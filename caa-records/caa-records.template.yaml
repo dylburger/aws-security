@@ -1,5 +1,5 @@
 Parameters:
-    Domain:
+    HostedZoneName:
         Type: String
 
 Resources:
